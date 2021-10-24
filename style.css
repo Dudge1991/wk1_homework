@@ -1,0 +1,291 @@
+body{
+    margin: 0%;
+}
+
+header{
+    padding: 2%;
+}
+
+.top-strip{
+    background-color: black;
+    margin: 0%;
+    padding: 3%;
+    display: flex;  
+    justify-content: space-between; 
+    
+}
+
+.bottom-strip{
+    background-color: black;
+    margin: 0%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.top-strip > a{
+    padding: 1%;
+    width: 20%;
+}
+
+.Flogo {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    
+}
+
+
+.nbar{
+    display: flex;
+    float: right;
+    width: 100%;
+}
+
+.nbar > ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nbar > ul > li{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    padding-right: 2%;
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.Ddown-button{
+    background-color: black;
+    border: none;
+    width: 140;
+    height: 70;
+    padding: 0%;
+}
+
+.Ddown{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.Ddown-links{
+    display: none;
+    /* z-index: 1; */
+    background-color: white;
+    position: absolute;
+    margin-top: 60%;
+
+}
+
+.Ddown-links a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    border: black 5px;
+}
+
+.Ddown:hover .Ddown-links{
+    display: block;
+    
+}
+
+#keyp{
+    border: 2px solid black;
+}
+#seniors{
+    border: 2px solid black;
+}
+
+#keyp:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+#seniors:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+.hlink:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+main{
+    padding-left: 5%;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+}
+
+article{
+    padding: 2%;
+    background-color: white;
+    width: 75%;
+}
+
+article > section > h2{
+    color: black;
+}
+
+aside{
+    width: 20%;
+}
+
+.centre-4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.centre-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hnews{
+    display: flex;
+    color: black;
+    padding: 5%;
+}
+
+
+
+.hnews > a{
+    text-align: justify;
+    color: black;
+
+}
+
+#white-news{
+    color: black;
+}
+
+#fnews{
+    display: flex;
+    justify-content: space-between;
+}
+
+#fnews > p{
+    padding-right: 10%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.add-links{
+    display: flex;
+}
+
+.align-add{
+    width: 50%;
+}
+
+
+footer > section > h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+footer > section> h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+footer > section > a > h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+footer > section> a > h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+.link-group {
+    position: relative;
+    
+  }
+  
+  .image-title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    /* background: rgba(29, 106, 154, 0.72); */
+    background: rgba(0, 100, 0, 0.72);
+    padding: 5%;
+  }
+  
+  .link-group:hover .image-title {
+    visibility: visible;
+    opacity: 1;
+  }
